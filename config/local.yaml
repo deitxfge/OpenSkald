@@ -2,10 +2,10 @@ environment: development
 log_level: INFO
 
 llm:
-  provider: cc_switch
-  base_url: http://localhost:3456/v1
-  api_key_env: CC_SWITCH_API_KEY
-  model: claude-3-5-sonnet
+  provider: deepseek
+  base_url: https://api.deepseek.com
+  api_key_env: DEEPSEEK_API_KEY
+  model: deepseek-v4-flash
   timeout_seconds: 60
 
 openviking:
